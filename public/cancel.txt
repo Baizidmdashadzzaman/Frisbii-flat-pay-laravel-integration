@@ -1,0 +1,86 @@
+Illuminate\Http\Request {#55 ▼ // app\Http\Controllers\PaymentController.php:43
+  +attributes: Symfony\Component\HttpFoundation
+\
+ParameterBag {
+#60 ▶}
+  +request: Symfony\Component\HttpFoundation
+\
+InputBag {
+#56 ▶}
+  +query: Symfony\Component\HttpFoundation
+\
+InputBag {
+#63 ▼
+    #parameters: array:3 [▼
+      "id" => "cs_f2b95a5b73f34aa5f00db78e75b8b9aa"
+      "invoice" => "ORD_69c4dc48abe94"
+      "customer" => "cust_81"
+    ]
+  }
+  +server: Symfony\Component\HttpFoundation
+\
+ServerBag {
+#58 ▶}
+  +files: Symfony\Component\HttpFoundation
+\
+FileBag {
+#62 ▶}
+  +cookies: Symfony\Component\HttpFoundation
+\
+InputBag {
+#61 ▶}
+  +headers: Symfony\Component\HttpFoundation
+\
+HeaderBag {
+#57 ▶}
+  #content: null
+  #languages: null
+  #charsets: null
+  #encodings: null
+  #acceptableContentTypes: null
+  #pathInfo: "/payment/cancel"
+  #requestUri: "/payment/cancel?id=cs_f2b95a5b73f34aa5f00db78e75b8b9aa&invoice=ORD_69c4dc48abe94&customer=cust_81"
+  #baseUrl: ""
+  #basePath: null
+  #method: "GET"
+  #format: null
+  #session: Illuminate\Session
+\
+SymfonySessionDecorator {
+#260 ▼
+    +store: Illuminate\Session
+\
+Store {
+#259 ▼
+      #id: "oWoFHtILrFc51YlFBBljgUKJaPA3QjDXCymjfFQy"
+      #name: "laravel-session"
+      #attributes: array:3 [▼
+        "_token" => "XAsEjUJ0qyCVnTyVRCjY8Ca1uHpNde5GrArBtcJG"
+        "_previous" => array:2 [▶]
+        "_flash" => array:2 [▶]
+      ]
+      #handler: Illuminate\Session
+\
+DatabaseSessionHandler {
+#251 ▶}
+      #serialization: "php"
+      #started: true
+    }
+  }
+  #locale: null
+  #defaultLocale: "en"
+  -preferredFormat: null
+  -isHostValid: true
+  -isForwardedValid: true
+  -isSafeContentPreferred: ? bool
+  -trustedValuesCache: []
+  -isIisRewrite: false
+  #json: null
+  #convertedFiles: null
+  #userResolver: Closure($guard = null) {#218 ▶}
+  #routeResolver: Closure() {#230 ▶}
+  #cachedAcceptHeader: null
+  basePath: ""
+  format: "html"
+}
+

@@ -1,0 +1,98 @@
+Illuminate\Http\Request {#55 ▼ // app\Http\Controllers\PaymentController.php:31
+  +attributes: Symfony\Component\HttpFoundation
+\
+ParameterBag {
+#60 ▶}
+  +request: Symfony\Component\HttpFoundation
+\
+InputBag {
+#56 ▶}
+  +query: Symfony\Component\HttpFoundation
+\
+InputBag {
+#63 ▼
+    #parameters: array:3 [▼
+      "id" => "cs_4a1a7eb7b00cb775daaf48041948e0db"
+      "invoice" => "ORD_69c4d955f357b"
+      "customer" => "cust_79"
+    ]
+  }
+  +server: Symfony\Component\HttpFoundation
+\
+ServerBag {
+#58 ▼
+    #parameters: array:28 [▼
+      "DOCUMENT_ROOT" => "M:\Temp\FrisbiiFlatPay\public"
+      "REMOTE_ADDR" => "127.0.0.1"
+      "REMOTE_PORT" => "52220"
+      "SERVER_SOFTWARE" => "PHP 8.2.12 Development Server"
+      "SERVER_PROTOCOL" => "HTTP/1.1"
+      "SERVER_NAME" => "127.0.0.1"
+      "SERVER_PORT" => "8000"
+      "REQUEST_URI" => "/payment/success?id=cs_4a1a7eb7b00cb775daaf48041948e0db&invoice=ORD_69c4d955f357b&customer=cust_79"
+      "REQUEST_METHOD" => "GET"
+      "SCRIPT_NAME" => "/index.php"
+      "SCRIPT_FILENAME" => "M:\Temp\FrisbiiFlatPay\public\index.php"
+      "PATH_INFO" => "/payment/success"
+      "PHP_SELF" => "/index.php/payment/success"
+      "QUERY_STRING" => "id=cs_4a1a7eb7b00cb775daaf48041948e0db&invoice=ORD_69c4d955f357b&customer=cust_79"
+      "HTTP_HOST" => "127.0.0.1:8000"
+      "HTTP_USER_AGENT" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
+      "HTTP_ACCEPT" => "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+      "HTTP_ACCEPT_LANGUAGE" => "en-US,en;q=0.9"
+      "HTTP_ACCEPT_ENCODING" => "gzip, deflate, br, zstd"
+      "HTTP_CONNECTION" => "keep-alive"
+      "HTTP_COOKIE" => "botble_footprints_cookie=eyJpdiI6Im5IdDhDaVQxY1Y2Q3N0VlpNTG1vM3c9PSIsInZhbHVlIjoiQnBUR2c1ZVhEUkNvbHNPaUh5N3ZtK2VzTWVwTHE1SldINTBTZlphenJWVHlLZGwxOUtObyt1T2NyVXE ▶"
+      "HTTP_UPGRADE_INSECURE_REQUESTS" => "1"
+      "HTTP_SEC_FETCH_DEST" => "document"
+      "HTTP_SEC_FETCH_MODE" => "navigate"
+      "HTTP_SEC_FETCH_SITE" => "cross-site"
+      "HTTP_PRIORITY" => "u=0, i"
+      "REQUEST_TIME_FLOAT" => 1774508604.1636
+      "REQUEST_TIME" => 1774508604
+    ]
+  }
+  +files: Symfony\Component\HttpFoundation
+\
+FileBag {
+#62 ▶}
+  +cookies: Symfony\Component\HttpFoundation
+\
+InputBag {
+#61 ▶}
+  +headers: Symfony\Component\HttpFoundation
+\
+HeaderBag {
+#57 ▶}
+  #content: null
+  #languages: null
+  #charsets: null
+  #encodings: null
+  #acceptableContentTypes: null
+  #pathInfo: "/payment/success"
+  #requestUri: "/payment/success?id=cs_4a1a7eb7b00cb775daaf48041948e0db&invoice=ORD_69c4d955f357b&customer=cust_79"
+  #baseUrl: ""
+  #basePath: null
+  #method: "GET"
+  #format: null
+  #session: Illuminate\Session
+\
+SymfonySessionDecorator {
+#259 ▶}
+  #locale: null
+  #defaultLocale: "en"
+  -preferredFormat: null
+  -isHostValid: true
+  -isForwardedValid: true
+  -isSafeContentPreferred: ? bool
+  -trustedValuesCache: []
+  -isIisRewrite: false
+  #json: null
+  #convertedFiles: null
+  #userResolver: Closure($guard = null) {#218 ▶}
+  #routeResolver: Closure() {#230 ▶}
+  #cachedAcceptHeader: null
+  basePath: ""
+  format: "html"
+}
+

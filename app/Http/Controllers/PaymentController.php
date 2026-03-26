@@ -12,7 +12,7 @@ class PaymentController extends Controller
     {
         $order = Order::create([
             'order_no' => uniqid('ORD_'),
-            'amount' => 1, 
+            'amount' => 100, 
             'currency' => 'DKK',
         ]);
 
@@ -28,7 +28,13 @@ class PaymentController extends Controller
 
     public function success(Request $request)
     {
-        dd($request);
+        dd($request->all());
+        //Success response from Frisbii will contain the following data:
+        // array:3 [▼ // app\Http\Controllers\PaymentController.php:31
+        //   "id" => "cs_07dfbea2c32c48bd74f513bd4d0169b4"
+        //   "invoice" => "ORD_69c4db7e5ebee"
+        //   "customer" => "cust_80"
+        // ]
         return "Payment success (waiting for confirmation)";
     }
 
