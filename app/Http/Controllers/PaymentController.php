@@ -26,13 +26,15 @@ class PaymentController extends Controller
         return redirect($paymentUrl);
     }
 
-    public function success()
+    public function success(Request $request)
     {
+        dd($request);
         return "Payment success (waiting for confirmation)";
     }
 
-    public function cancel()
+    public function cancel(Request $request)
     {
+        dd($request);
         return "Payment cancelled";
     }
 
