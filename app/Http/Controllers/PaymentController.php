@@ -12,7 +12,7 @@ class PaymentController extends Controller
     {
         $order = Order::create([
             'order_no' => uniqid('ORD_'),
-            'amount' => 100, 
+            'amount' => 500, 
             'currency' => 'DKK',
         ]);
 
